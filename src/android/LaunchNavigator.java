@@ -168,7 +168,7 @@ public class LaunchNavigator extends CordovaPlugin {
 				url = "http://maps.google.com/maps?daddr=" + destination + "&saddr=" + start;
 			}else{
 				logMsg += " from current location";
-				url = "google.navigation:q=" + destination;
+				url = "google.navigation://?q=" + destination;
 			}
 			Log.d(LOG_TAG, logMsg);
 			
